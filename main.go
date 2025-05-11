@@ -1,5 +1,8 @@
 package puppy
 
+immport (
+	"github.com/DimArmen/dog"
+)
 type Puppy struct {
 	Name   string
 	Breed  string
@@ -8,5 +11,5 @@ type Puppy struct {
 }
 
 func (p *Puppy) Bark() string {
-	return "Woof! Woof!"
+	return dog.Bark(p.Name)
 }
