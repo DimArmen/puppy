@@ -1,8 +1,9 @@
 package puppy
 
-immport (
+import (
 	"github.com/DimArmen/dog"
 )
+
 type Puppy struct {
 	Name   string
 	Breed  string
